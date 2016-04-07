@@ -21,6 +21,7 @@ h1 {
 	float: left;
 }
 
+
 .shopping-list,
 .shopping-form  {
 	width: 230px;
@@ -50,13 +51,19 @@ h1 {
 .items {
 	margin-top: 181px;
 	margin-left: 61px;
+	height: 226px;
+	width: 189px;
 	}
 
-.item 
+.items 
 {
 	background-color: #E0C6A4;
 }
 
 #item-add {
 	margin-left: 21px;
+}
+
+textarea {
+	resize: none;
 }

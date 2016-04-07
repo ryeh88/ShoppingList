@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/shopping-list.js"></script>
 	</head>
 <body>
 <header>
@@ -15,26 +18,38 @@
 		<div class="shopping-list">
 			<div class="items">
 				<div>
-				<input class="item"></input>
-				<a id="delete-item1" href="#" onclick="delete()">X</a>
-			</div>
-			<div>
-				<input class="item"></input>
-				<a id="delete-item1" href="#">X</a>
-			</div>
-			<div>
-				<input class="item"></input>
-				<a id="delete-item1" href="#">X</a>
+					<textarea class="item1" rows="1"></textarea>
+					<a id="delete-item1" href="#">X</a>
+				</div>
+				<div>
+					<textarea class="item2" rows="1"></textarea>
+					<a id="delete-item1" href="#">X</a>
+				</div>
+				<div>
+					<textarea class="item3" rows="1"></textarea>
+					<a id="delete-item1" href="#">X</a>
+				</div>	
+				<div>
+					<textarea class=" item4" rows="1"></textarea>
+					<a id="delete-item4" href="#">X</a>
+				</div>
+				<div>
+					<textarea class="item5" rows="1"></textarea>
+					<a id="delete-item5" href="#">X</a>
+				</div>
+				<div>
+					<textarea class="item6" rows="1"></textarea>
+					<a id="delete-item6" href="#">X</a>
 				</div>
 			</div>
 		</div>
 		<div class="shopping-form">
 			<h1>Add Items</h1>
-			<form>
-				<input id="item-add" placeholder="Type item here"></input> 
-				<a id="add-item" href="#">Add</a>
+			<form class="item-add">
+				<input id="item-name" placeholder="Type item here"></input> 
+				<input type="submit" value="Add"></input>
 			</form>
-			</div>
+		</div>
 		</div>
 	</div>
 </body>
