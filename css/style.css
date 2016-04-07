@@ -31,7 +31,7 @@ h1 {
 .shopping-list {
 	float: left;
 	background-color: purple;
-	background: url('images/shopping-bag.svg');
+	background: url('../shopping-bag.svg');
 	background-repeat: no-repeat;
 	width: 27%;
 }
