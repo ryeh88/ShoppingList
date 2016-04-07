@@ -10,6 +10,7 @@ body {
 h1 {
 	margin-left: 20px;
 	margin-right:20px;
+	padding: 20px;
 }
 
 /*Container*/
@@ -22,7 +23,7 @@ h1 {
 
 .shopping-list,
 .shopping-form  {
-	width: 30%;
+	width: 230px;
 	min-height: 450px;
 	border-radius: 8px;
 	display: inline-block;
@@ -33,7 +34,7 @@ h1 {
 	background-color: purple;
 	background: url('../shopping-bag.svg');
 	background-repeat: no-repeat;
-	width: 27%;
+	width: 440px;
 }
 
 .shopping-form{
