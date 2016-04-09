@@ -33,9 +33,11 @@ h1 {
 .shopping-list {
 	float: left;
 	background-color: purple;
-	background: url('../shopping-bag.svg');
+	background: url('http://i.imgur.com/rZtlt1Y.jpg');
 	background-repeat: no-repeat;
-	width: 440px;
+	width: 606px;
+    height: 650px;
+
 }
 
 .shopping-form{
@@ -53,6 +55,8 @@ h1 {
 	margin-left: 61px;
 	height: 226px;
 	width: 189px;
+ 	margin-top: 261px;
+    margin-left: 31px;
 	}
 
 .items 
@@ -66,4 +70,5 @@ h1 {
 
 textarea {
 	resize: none;
-}
+  background: #E0C6A4;
+} 
