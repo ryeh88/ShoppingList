@@ -45,8 +45,13 @@ h1 {
 	background-color: #9CBA7F;
 }
 
+.alert {
+	display: none;
+	color: red;
+}
+
 #list {
-	margin-top: 500px;
+	list-style-type: none;
 }
 
 
@@ -55,14 +60,11 @@ h1 {
 	margin-left: 61px;
 	height: 226px;
 	width: 189px;
- 	margin-top: 261px;
+ 	margin-top: 261px;bn 
     margin-left: 31px;
 	}
 
-.items 
-{
-	background-color: #E0C6A4;
-}
+
 
 #item-add {
 	margin-left: 21px;
@@ -72,3 +74,9 @@ textarea {
 	resize: none;
   background: #E0C6A4;
 } 
+
+.delete-button {
+	background-color: #E0C6A4;
+	border: none;
+	color: red;
+}
